@@ -1,4 +1,6 @@
 # Tech Blog - Full Stack Web Application
+![Screenshot 2025-01-15 150607](https://github.com/user-attachments/assets/2d883f88-9c76-426e-bbcf-5223bd5ff734)
+
 
 A responsive tech blog website featuring a dynamic article showcase with a slider for highlighted posts and a paginated article grid. Built with HTML, CSS, JavaScript, and PHP.
 
