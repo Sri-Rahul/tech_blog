@@ -63,23 +63,23 @@ A responsive tech blog website featuring a dynamic article showcase with a slide
     image VARCHAR(255) DEFAULT NULL,
     highlighted TINYINT(1) DEFAULT 0,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+   );
      ```
    - Add some test data:
      ```sql
-    INSERT INTO articles (title, author, description, image, highlighted, created_at) VALUES
-    ('The Future of AI in Everyday Life', 'John Doe', 'An in-depth look at how artificial intelligence is shaping our daily activities, from smart homes to personal assistants.', 'images/articles/article1.jpg', 
-    1, '2023-10-01 10:00:00'),
-    ('Top 10 Programming Languages to Learn in 2024', 'Jane Smith', 'Explore the most popular and emerging programming languages that are set to dominate the tech landscape in the coming year.', 
-    'images/articles/article2.jpg', 0, '2023-09-15 14:30:00'),
-    ('Cybersecurity Best Practices for Remote Workers', 'Alice Johnson', 'With the rise of remote work, ensuring the security of your data has never been more critical. Discover essential tips to protect 
-    yourself.', 'images/articles/article3.jpg', 1, '2023-08-20 09:15:00'),
-    ('The Rise of Quantum Computing: What You Need to Know', 'Bob Williams', 'Quantum computing is poised to revolutionize industries. Understand the basics and potential applications of this groundbreaking 
-    technology.', 'images/articles/article1.jpg', 0, '2023-07-05 16:45:00'),
-    ('Sustainable Tech: Innovations Driving Green Computing', 'Clara Davis', 'Sustainability meets technology. Learn about the latest innovations that are making computing more environmentally friendly.', ' 
-    images/articles/article2.jpg', 0, '2023-06-18 11:20:00'),
-    ('Understanding Blockchain Beyond Cryptocurrency', 'David Lee', 'Blockchain technology offers more than just the backbone of cryptocurrencies. Explore its diverse applications across various sectors.', ' 
-    images/articles/article3.jpg', 1, '2023-05-22 13:50:00');
+     INSERT INTO articles (title, author, description, image, highlighted, created_at) VALUES
+     ('The Future of AI in Everyday Life', 'John Doe', 'An in-depth look at how artificial intelligence is shaping our daily activities, from smart homes to personal assistants.', 'images/articles/article1.jpg', 
+     1, '2023-10-01 10:00:00'),
+     ('Top 10 Programming Languages to Learn in 2024', 'Jane Smith', 'Explore the most popular and emerging programming languages that are set to dominate the tech landscape in the coming year.', 
+     'images/articles/article2.jpg', 0, '2023-09-15 14:30:00'),
+     ('Cybersecurity Best Practices for Remote Workers', 'Alice Johnson', 'With the rise of remote work, ensuring the security of your data has never been more critical. Discover essential tips to protect 
+     yourself.', 'images/articles/article3.jpg', 1, '2023-08-20 09:15:00'),
+     ('The Rise of Quantum Computing: What You Need to Know', 'Bob Williams', 'Quantum computing is poised to revolutionize industries. Understand the basics and potential applications of this groundbreaking 
+     technology.', 'images/articles/article1.jpg', 0, '2023-07-05 16:45:00'),
+     ('Sustainable Tech: Innovations Driving Green Computing', 'Clara Davis', 'Sustainability meets technology. Learn about the latest innovations that are making computing more environmentally friendly.', ' 
+     images/articles/article2.jpg', 0, '2023-06-18 11:20:00'),
+     ('Understanding Blockchain Beyond Cryptocurrency', 'David Lee', 'Blockchain technology offers more than just the backbone of cryptocurrencies. Explore its diverse applications across various sectors.', ' 
+     images/articles/article3.jpg', 1, '2023-05-22 13:50:00');
      ```
 
 5. **Configure Database Connection**
