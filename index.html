@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for Responsiveness and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog - Home</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">TECH BLOG</div>
+            <button class="menu-btn" aria-label="Toggle Menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </nav>
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search articles..." aria-label="Search Articles">
+            <button id="search-btn" aria-label="Search Articles">🔍</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-section">
+        <!-- Slideshow Section -->
+        <section class="featured-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slides will be injected here via JavaScript -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!-- All Articles Section -->
+        <section class="articles-section">
+            <h2>Latest Articles</h2>
+            <div class="article-grid">
+                <!-- Articles will be loaded here dynamically -->
+            </div>
+            <!-- Load More Button -->
+            <button id="load-more-btn" class="load-more-btn">Load More</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="current-year"></span> Tech Blog. All rights reserved.</p>
+    </footer>
+
+    <!-- Swiper.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+</body>
+</html>
